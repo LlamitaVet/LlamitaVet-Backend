@@ -1,0 +1,6 @@
+pe\edu\upe\backendllamitavet\models\PetModel.class
+pe\edu\upe\backendllamitavet\services\PetService.class
+pe\edu\upe\backendllamitavet\controllers\PetController.class
+pe\edu\upe\backendllamitavet\repositories\PetRepository.class
+pe\edu\upe\backendllamitavet\ServletInitializer.class
+pe\edu\upe\backendllamitavet\BackendLlamitaVetApplication.class
