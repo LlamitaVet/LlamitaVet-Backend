@@ -12,6 +12,7 @@ public class ReviewModel {
     private Long id;
     private String name;
     private String review;
+    private Integer veterinarian_id;
 
     public Long getId() {
         return id;
@@ -35,5 +36,13 @@ public class ReviewModel {
 
     public void setReview(String review) {
         this.review = review;
+    }
+
+    public Integer getVeterinarian_id() {
+        return veterinarian_id;
+    }
+
+    public void setVeterinarian_id(Integer veterinarian_id) {
+        this.veterinarian_id = veterinarian_id;
     }
 }
