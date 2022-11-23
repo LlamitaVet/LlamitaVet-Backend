@@ -10,7 +10,6 @@ public class ReviewModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(unique = true, nullable = false)
     private Long id;
-    private String name;
     private String review;
     private Integer veterinarian_id;
 
@@ -20,14 +19,6 @@ public class ReviewModel {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getReview() {
