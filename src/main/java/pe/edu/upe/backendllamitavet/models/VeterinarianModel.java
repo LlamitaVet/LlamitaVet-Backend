@@ -14,6 +14,7 @@ public class VeterinarianModel {
     private String location;
     private Integer phone;
     private String img_url;
+    private static String[] review;
 
     public Long getId() {
         return id;
@@ -53,5 +54,13 @@ public class VeterinarianModel {
 
     public void setPhone(Integer phone) {
         this.phone = phone;
+    }
+
+    public String[] getReview() {
+        return review;
+    }
+
+    public void setReview(String[] review) {
+        this.review = review;
     }
 }
