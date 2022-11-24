@@ -8,7 +8,7 @@ import pe.edu.upe.backendllamitavet.services.ReviewService;
 import java.util.ArrayList;
 
 @RestController
-@RequestMapping("/reviews")
+@RequestMapping("/reviews/")
 public class ReviewController {
     @Autowired
     ReviewService reviewService;
